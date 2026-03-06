@@ -27,6 +27,7 @@ This tool is intended for CTF practice, red team learning, and forensic awarenes
 Clone the repository:
 
 git clone https://github.com/sachin-kesav/TraceXclean.git
+
 cd TraceXclean
 
 Install dependencies:
@@ -96,7 +97,8 @@ Do not run this tool on systems without proper authorization.
 
 ## Author
 
-K M Sachin Kesav 
-Midhunraj M
+K M Sachin Kesav  
+Midhunraj M  
+
 Cybersecurity Enthusiast | CTF Player | Security Tool Builder
 
