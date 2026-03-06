@@ -95,6 +95,26 @@ TraceXclean can help security learners understand what traces are left behind du
 
 This helps build forensic awareness for red teamers and CTF players.
 
+## Example Output
+
+TraceXclean v1.0
+
+[+] Starting artifact analysis...
+
+[+] SSH Login Artifacts Found
+    /var/log/auth.log
+
+[+] Bash History Artifacts Found
+    /home/user/.bash_history
+
+[+] Temporary Directory Artifacts Found
+    /tmp/trace_test.sh
+
+Risk Score: 7/10
+Noise Level: Medium
+
+Report saved to reports/report_2026-03-06.md
+
 ## Disclaimer
 
 TraceXclean is intended only for educational purposes and authorized testing environments.
