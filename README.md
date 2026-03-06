@@ -6,27 +6,27 @@ It helps identify forensic artifacts left behind after common attacker activitie
 
 This tool is intended for CTF practice, red team learning, and forensic awareness training.
 
-Features
+## Features
 
-Linux authentication log analysis
+- Linux authentication log analysis
 
-SSH artifact detection
+- SSH artifact detection
 
-Bash history analysis
+- Bash history analysis
 
-Temporary directory artifact detection
+- Temporary directory artifact detection
 
-Risk and noise scoring
+- Risk and noise scoring
 
-Ethical cleanup simulation (non-destructive)
+- Ethical cleanup simulation (non-destructive)
 
-Terminal and Markdown reporting
+- Terminal and Markdown reporting
 
-Installation
+## Installation
 
 Clone the repository:
 
-git clone https://github.com/YOURUSERNAME/TraceXclean.git
+git clone https://github.com/sachin-kesav/TraceXclean.git
 cd TraceXclean
 
 Install dependencies:
@@ -48,7 +48,8 @@ sudo python3 tracexclean.py --analyze --report markdown
 
 Reports will be saved inside the reports/ directory.
 
-Project Structure
+## Project Structure
+
 TraceXclean
 │
 ├── tracexclean.py          # Main CLI entry point
@@ -71,29 +72,31 @@ TraceXclean
 │   └── TracexClean_Project_Report.pdf
 │
 └── reports                 # Generated reports
-Example Use Case
+
+## Example Use Case
 
 TraceXclean can help security learners understand what traces are left behind during activities such as:
 
-SSH logins
+- SSH logins
 
-Privilege escalation
+- Privilege escalation
 
-Command execution
+- Command execution
 
-Temporary file usage
+- Temporary file usage
 
-Shell history modification
+- Shell history modification
 
 This helps build forensic awareness for red teamers and CTF players.
 
-Disclaimer
+## Disclaimer
 
 TraceXclean is intended only for educational purposes and authorized testing environments.
 Do not run this tool on systems without proper authorization.
 
-Author
+## Author
 
-K M Sachin Kesav , Midhunraj M
+K M Sachin Kesav 
+Midhunraj M
 Cybersecurity Enthusiast | CTF Player | Security Tool Builder
 
