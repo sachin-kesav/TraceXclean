@@ -1,0 +1,15 @@
+# linux_logs.yaml
+# ----------------
+# This file is reserved for future rule-based log detection.
+#
+# Example (not active in current version):
+#
+# ssh_login:
+#   log_file: /var/log/auth.log
+#   match:
+#     - "Accepted password"
+#     - "Accepted publickey"
+#   severity: High
+#
+# Current implementation uses hardcoded logic
+# for simplicity and educational clarity.

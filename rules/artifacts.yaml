@@ -1,0 +1,17 @@
+# artifacts.yaml
+# --------------
+# This file is reserved for future artifact detection rules.
+#
+# Example (not active in current version):
+#
+# bash_history:
+#   path: ~/.bash_history
+#   severity: Medium
+#
+# ssh_keys:
+#   path: ~/.ssh/authorized_keys
+#   severity: High
+#
+# Temporary directories, SSH artifacts, and
+# history files are currently detected using
+# direct filesystem analysis.
