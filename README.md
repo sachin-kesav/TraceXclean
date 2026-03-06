@@ -1,4 +1,9 @@
-## TraceXclean
+# TraceXclean
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Platform](https://img.shields.io/badge/Platform-Linux-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Project-Active-success)
 
 TraceXclean is a Linux-based post-exploitation footprint analysis and cleanup simulation tool designed for educational use in controlled lab environments.
 
